@@ -20,7 +20,7 @@ function App() {
       console.log(response.data)
      })
      
-  });
+  },[count]);
   
   const handlePrevClick=() =>{
     console.log("Previos")
